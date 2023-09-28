@@ -23,7 +23,6 @@ public class Main {
                 num2 = sc.nextInt();
                 suma = num1 + num2;
                 System.out.println(num1 + " + " + num2 + " = " + suma);
-                break;
             } else if (respuesta == 2) {
                 System.out.print("Ingrese un número: ");
                 num1 = sc.nextInt();
@@ -31,7 +30,6 @@ public class Main {
                 num2 = sc.nextInt();
                 resta = num1 - num2;
                 System.out.println(num1 + " - " + num2 + " = " + resta);
-                break;
             } else if (respuesta == 3) {
                 System.out.print("Ingrese un número: ");
                 num1 = sc.nextInt();
@@ -39,7 +37,6 @@ public class Main {
                 num2 = sc.nextInt();
                 multiplicar = num1 * num2;
                 System.out.println(num1 + " x " + num2 + " = " + multiplicar);
-                break;
             } else if (respuesta == 4) {
                 System.out.print("Ingrese un número: ");
                 numd1 = sc.nextInt();
@@ -47,7 +44,6 @@ public class Main {
                 numd2 = sc.nextInt();
                 division = numd1 / numd2;
                 System.out.println(numd1 + " / " + numd2 + " = " + division);
-                break;
             } else if (respuesta == 0){
                 System.out.println("Muchas gracias por usar la calculadora. Vuelve pronto. ¡Hasta luego!");
                 break;
